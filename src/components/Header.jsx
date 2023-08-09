@@ -15,8 +15,8 @@ const Header = () => {
       {/* logo end */}
 
       {/* search bar start */}
-      <form action="" className="flex items-center w-[422px] h-16 p-4 border ml-4 mr-4 justify-between">
-        <input type="text" className=" outline-none items-center"/>
+      <form action="" className="flex items-center w-[422px] h-16 p-4 border ml-4 mr-4 justify-between rounded-sm">
+        <input type="text" placeholder="Search makes, models..." className=" outline-none items-center w-[336px] h-[46px] p-[13px]"/>
         <img src={Search} alt="" className="h-[24px] w-[24px]" />
       </form>
       {/* search bar end */}

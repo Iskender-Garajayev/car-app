@@ -1,7 +1,7 @@
 import './App.css';
-import Card from './components/Card';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import HomeScreen from './components/HomeScreen';
 
 
 function App() {
@@ -9,7 +9,8 @@ function App() {
     <div className="App">
       <Header/>
 
-      <Card/>
+      <HomeScreen/>
+      
       <Footer/>
 
 
