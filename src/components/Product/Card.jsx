@@ -10,7 +10,7 @@ const Card = () => {
         {carData.map((card) => (
           <div key={card._id} className="card w-[282px] h-[355px] shadow-lg rounded-lg border border-gray-300 items-end hover:shadow-2xl hover:transition-[.4]">
             <img src={card.images.img} alt="" className=" w-[282px] h-[160px] object-cover " />
-            <p>{card.year}</p>
+            <p>{card.make}</p>
             <span> {card.model}</span>
           </div>
         ))}
