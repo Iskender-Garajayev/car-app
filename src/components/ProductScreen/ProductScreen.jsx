@@ -5,7 +5,7 @@ import './ProductScreen.css'
 const ProductScreen = () => {
   return (
     <div>
-      product screen
+      product screen 
     </div>
   )
 }
