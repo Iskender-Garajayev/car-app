@@ -23,6 +23,13 @@ const Header = () => {
       
       {/* navbar start */}
 
+      <ul>
+        <li>Find your car</li>
+        <li>Sell or trade in</li>
+        <li>How it works</li>
+        <li>Car finance</li>
+      </ul>
+
       {/* navbar end */}
 
       {/* user start */}
